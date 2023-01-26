@@ -5,21 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b23fe4-c36f-4c9b-829f-83994fa1bdc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/AvaliadorDeCreditoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/CartaoCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/DadosCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/SituacaoCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/infra/clients/ClientesResourceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/credcardtraing/msavaliadorCred/AvaliadorDeCreditoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/ex/DadosClienteNotFoundExecption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/ex/ErroComunicacaoMicroServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/Cartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/CartaoAprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/DadosAvaliacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/RetornoAvaliacaoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/infra/clients/CartoesResourceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/DadosCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/DadosCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,17 +52,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/aEstudoDev/ProjetoCredCard/msavaliadorCred&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/aEstudoDev/ProjetoCredCard/eurekaServe"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="io.github.credcardtraing.msavaliadorCred.application" />
       <recent name="io.github.credcardtraing.msavaliadorCred.domain.model" />
+      <recent name="io.github.credcardtraing.msavaliadorCred.application" />
     </key>
   </component>
   <component name="RunManager" selected="Application.AvaliadorDeCreditoApplication">
@@ -128,44 +126,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.java</url>
-          <line>15</line>
-          <properties class="io.github.credcardtraing.msavaliadorCred.application.AvaliadorDeCreditoService" method="obterSituacaoCliente">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.java</url>
-          <line>24</line>
-          <properties class="io.github.credcardtraing.msavaliadorCred.application.AvaliadorCreditoController" method="consultaSituacaoCliente">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="19" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
