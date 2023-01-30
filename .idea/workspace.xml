@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b23fe4-c36f-4c9b-829f-83994fa1bdc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/ex/DadosClienteNotFoundExecption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/ex/ErroComunicacaoMicroServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/Cartao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/CartaoAprovado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/DadosAvaliacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/RetornoAvaliacaoCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/infra/clients/CartoesResourceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/config/MQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/DadosSolicitacaoCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/infra/clients/mqueues/SolicitacaoEmissaoCartaoPublisher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/DadosCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/domain/model/DadosCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/credcardtraing/msavaliadorCred/application/AvaliadorCreditoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/credcardtraing/msavaliadorCred/application/AvaliadorDeCreditoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/AvaliadorDeCreditoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/credcardtraing/msavaliadorCred/AvaliadorDeCreditoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/aEstudoDev/ProjetoCredCard/eurekaServe"
+    "last_opened_file_path": "D:/aEstudoDev/ProjetoCredCard/mscartoes"
   }
 }]]></component>
   <component name="RecentsManager">
