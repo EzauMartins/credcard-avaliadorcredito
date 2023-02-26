@@ -2,7 +2,7 @@ spring:
   application:
     name: msavalidadorcred
   rabbitmq:
-    host: localhost
+    host: ${RABBITMQ_SERVE}
     port: 5672
     username: guest
     password: guest
@@ -13,7 +13,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://ez-eureka-server:senhansaber@localhost:8761/eureka
+      defaultZone: http://ez-eureka-server:senhansaber@${EUREKA_SERVE}:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
